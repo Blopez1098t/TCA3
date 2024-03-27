@@ -118,3 +118,7 @@ function cbgc6(){
     document.querySelector(".but5").style.backgroundColor= "black"; 
     document.querySelector(".but6").style.backgroundColor= "rgb(255, 199, 79)"; 
 }
+
+function imgclick() {
+    alert("SECRET FACT: Bees have 5 eyes!!!");
+  }
