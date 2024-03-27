@@ -1,0 +1,94 @@
+/* clamp([value-min], [value-preferred], [value-max]); */
+@font-face {
+    font-family: 'Anchor Jack';
+    src: url(assets/AnchorJack.ttf);
+}
+
+body{
+    background-color: rgb(255, 249, 192);
+}
+h1{
+    /* font-size: 128px; */
+    font-size: clamp(32px, 10vw, 128px);
+    font-family: 'Anchor Jack';
+    text-align: center;
+    color: #0B090A;
+}
+p{
+ /* font-size: 34px;    */
+ font-size: clamp(4px , 1.5vw, 34px);
+ font-family: "Arbutus", serif;
+ font-weight: 400;
+ font-style: normal;
+ text-align: center;
+ color: #161A1D;
+}
+button {
+    --text-color: #fff;
+    position: relative ;
+    width: 100% !important;
+    height: 100% !important;
+    border: none;
+    background: var(--bg);
+    color: var(--text-color);
+    padding: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.2s;
+    border-radius: 5px;
+    opacity: 100;
+    letter-spacing: 1px;
+    box-shadow: #161A1D 0px 11px 2px, #161A1D 0px 1px 5px;
+  }
+  
+  button:hover {
+    opacity: 100;
+  }
+  
+  button:active {
+    top: 4px;
+    box-shadow: #161A1D 0px 3px 2px,#161A1D 0px 3px 5px;
+  }
+  .but1{
+    --bg: rgb(255, 199, 79);
+  }
+  .but2{
+    --bg: #000000;
+  }
+  .but3{
+    --bg: rgb(255, 174, 0);
+  }
+  .but4{
+    --bg: black;
+  }
+  .but5{
+    --bg: rgb(255, 174, 0);
+  }
+  .but6{
+    --bg: black;
+  }
+  p1{
+    font-size: clamp(5px , 1vw, 32px);
+    font-family: 'Anchor Jack';
+    text-align: center;
+  }
+  .img-fluid {
+    max-width: 100%;
+    max-height: 100%;
+
+  }
+.nd{
+  max-height: 80vh !important;
+}
+.col2{
+  height: 728px;
+}
+#box1{
+  height: 75%;
+}
+#box2{
+  height: auto;
+}
+#box3{
+  height: auto;
+}
